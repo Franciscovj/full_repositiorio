@@ -21,9 +21,8 @@ st.markdown(
 
 
 def load_data_jogos():
-    data_jogos = pd.read_csv(
-        r"C:\Users\Administrador\Desktop\repositorios\full_repositiorio\goalpyapp\dados_csv\proximos_jogos.csv"
-    )
+    data_jogos = pd.read_csv(r"C:\Users\Administrador\Desktop\repositorios\full_repositiorio\goalpyapp\dados_csv\proximos_jogos.csv")
+    #data_jogos = pd.read_csv('https://github.com/Franciscovj/full_repositiorio/blob/main/goalpyapp/dados_csv/proximos_jogos.csv')
     data_jogos = data_jogos[
         [
 
