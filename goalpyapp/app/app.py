@@ -77,7 +77,7 @@ df_jogos = load_data_jogos()
 
 with st.sidebar:
     st.sidebar.header("Proximos Jogos")
-    st.sidebar.image("full_repositiorio/blob/main/goalpyapp/goalpy_texture_00092.tif", use_column_width=True)
+    st.sidebar.image("goalpyapp/goalpy_texture_00092.tif", use_column_width=True)
 
     with st.expander("Seleção Data"):
         sorted_unique_date = sorted(df_jogos.Date.unique())
